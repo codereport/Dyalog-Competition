@@ -10,3 +10,6 @@ passingGrades ← 100 × {+/65≤⍵} ÷ ≢
 
 ⍝ Problem 3
 wordCount ← {⍴(' '≠⍵)⊆⍵}
+
+⍝ Problem 4
+balancedParens ← {(0=¯1↑x)∧0≤⌊/x←+\('('=⍵)-')'=⍵}
