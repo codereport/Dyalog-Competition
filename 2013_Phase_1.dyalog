@@ -4,3 +4,9 @@
 firstNOdds ← {(2|x)/x←⍳2×⍵}
 firstNOdds ← {(2×⍳⍵)-1}
 firstNOdds ← {¯1+2×⍳⍵} 
+
+⍝ Problem 2
+passingGrades ← 100 × {+/65≤⍵} ÷ ≢
+
+⍝ Problem 3
+wordCount ← {⍴(' '≠⍵)⊆⍵}
