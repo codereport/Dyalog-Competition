@@ -25,4 +25,4 @@ multTable: {t *\:/: t: 1 + til x}
 / Problem 
 
 / Problem 
-
+solve: {sum each (inv `float $ x) *\: y}
