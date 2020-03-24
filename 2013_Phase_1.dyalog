@@ -13,3 +13,22 @@ wordCount ← {⍴(' '≠⍵)⊆⍵}
 
 ⍝ Problem 4
 balancedParens ← {(0=¯1↑x)∧0≤⌊/x←+\('('=⍵)-')'=⍵}
+
+⍝ Problem 5
+identityMatrix ← ∘.=⍨⍳
+
+⍝ Problem 6
+minMaxDiff ← ⌈/-⌊/
+
+⍝ Problem 7
+fpFilter ← {(0<10|10×⍵)/⍵}
+
+⍝ Problem 8
+multTable ← ∘.×⍨⍳
+
+⍝ Problem 9
+avg ← +/÷≢
+nMoMovAvg ← {avg¨2,/⍵}
+
+⍝ Problem 10
+solve ← {(⌹⍵)+.×⍺}
