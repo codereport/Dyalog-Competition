@@ -4,6 +4,7 @@
 rightTriangle ← {(⍵*2)=+.×⍨⍺}
 
 ⍝ Problem 2
+shorten ← {(1⌽1 1,~{(~' '∊⍵)∧⍵[2]∊v}¨3,/⍵)/⍵} ⍝ 1st attempt; fails ⍵ = '' and 'a'
 
 ⍝ Problem 3
 fib ← {{⍵,+/¯2↑⍵}/⍵/1} ⍝ 1st attempt; fails ⍵ = 0
