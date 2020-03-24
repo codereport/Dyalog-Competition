@@ -9,6 +9,7 @@ passingGrades: {100 * (sum 65 < x) % count x}
 / Problem 3
 
 / Problem 4
+balancedParens: {(0 = last t) and 0 <= min t: sums ("(" = x) - ")" = x}
 
 / Problem 5
 identityMatrix: {t =\:/: t: til x}
@@ -23,6 +24,7 @@ fpFilter: {x where 0 < (10 * x) mod 10}
 multTable: {t *\:/: t: 1 + til x}
 
 / Problem 
+nMoMovAvg: {(y - 1) _ y mavg x}
 
 / Problem 
 solve: {sum each (inv `float $ x) *\: y}
