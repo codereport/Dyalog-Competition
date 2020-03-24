@@ -7,6 +7,8 @@ firstNOdds: {1 + 2 * til x}
 passingGrades: {100 * (sum 65 < x) % count x}
 
 / Problem 3
+wordCount: {sum 0 < sum each (where differ t) cut t: " " <> x}
+wordCount: {sum first each (where differ t) cut t: " " <> x} / alternative
 
 / Problem 4
 balancedParens: {(0 = last t) and 0 <= min t: sums ("(" = x) - ")" = x}
@@ -23,8 +25,8 @@ fpFilter: {x where 0 < (10 * x) mod 10}
 / Problem 8
 multTable: {t *\:/: t: 1 + til x}
 
-/ Problem 
+/ Problem 9
 nMoMovAvg: {(y - 1) _ y mavg x}
 
-/ Problem 
+/ Problem 10
 solve: {sum each (inv `float $ x) *\: y}
